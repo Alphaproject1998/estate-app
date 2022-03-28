@@ -1,0 +1,1 @@
+$("#chooseFile").bind("change",function(){var e=$("#chooseFile").val();/^\s*$/.test(e)?($(".file-upload").removeClass("active"),$("#noFile").text("No file chosen...")):($(".file-upload").addClass("active"),$("#noFile").text(e.replace("C:\\fakepath\\","")),$("#sbm_button").fadeIn())});
